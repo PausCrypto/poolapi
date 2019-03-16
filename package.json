@@ -1,0 +1,28 @@
+{
+  "name": "poolapi",
+  "version": "1.0.0",
+  "description": "An api to store pool data",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObscureIM/poolapi.git"
+  },
+  "keywords": [
+    "pool",
+    "api"
+  ],
+  "author": "PausCrypto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ObscureIM/poolapi/issues"
+  },
+  "homepage": "https://github.com/ObscureIM/poolapi#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "mongoose": "^5.4.19",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
