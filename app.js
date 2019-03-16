@@ -128,3 +128,7 @@ function httpGetAsync(theUrl) {
   })
 
 }
+
+setInterval(function(){
+  updateDatabase()
+},5000)
