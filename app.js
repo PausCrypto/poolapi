@@ -17,7 +17,7 @@ var allowCrossDomain = function(req, res, next) {
 app.use(allowCrossDomain)
 app.use(express.static("public"))
 //Initialize the app
-var server = app.listen(process.env.PORT || 8080, function () {
+var server = app.listen(process.env.PORT || 8081, function () {
     var port = server.address().port;
     console.log("App now running on port", port);
   })
