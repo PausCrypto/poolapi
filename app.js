@@ -122,7 +122,7 @@ function httpGetAsync(theUrl) {
       }
       xmlHttp.open("GET", theUrl, true); // true for asynchronous
       xmlHttp.send(null);
-    },5)
+    },10)
 
   })
 
