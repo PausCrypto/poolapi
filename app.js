@@ -47,7 +47,6 @@ var PoolModel = mongoose.model('poolModel',schema)
 
 
 app.get('/getPools',function(req,res) {
-  updateDatabase()
   PoolModel.find({},[],function(err,post) {
     res.send(post)
   });
